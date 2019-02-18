@@ -4,7 +4,7 @@ Simple quiz game where you have to guess which character said the quote displaye
 
 I'm using the Simpsons Quote API, available here: https://thesimpsonsquoteapi.glitch.me
 
-Just using React and Styled-components for external libraries
+Built in React. I also used styled-components for styling. Bootstrapped by create-react-app.
 
 ## Instructions
 
