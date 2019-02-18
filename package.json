@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.16.4",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-scripts": "2.1.5",
@@ -10,6 +11,8 @@
   },
   "scripts": {
     "start": "NODE_PATH=src/ react-scripts start",
+    "startserver": "node server.js",
+    "heroku-postbuild": "yarn && yarn run build",
     "build": "NODE_PATH=src/ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
