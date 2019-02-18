@@ -25,9 +25,19 @@ const StyledLink = styled.a`
 const Footer = () => {
   return (
     <FooterWrapper>
-      <StyledLink href="https://github.com/ranveerdhaliwal/quote-quiz-game-extravaganza">Github</StyledLink>
+      <StyledLink 
+        href="https://github.com/ranveerdhaliwal/quote-quiz-game-extravaganza"
+        target="_blank"
+      >
+        Github
+      </StyledLink>
       <FillerDiv />
-      <StyledLink href="https://thesimpsonsquoteapi.glitch.me/">Using Simpsons Quotes API</StyledLink>
+      <StyledLink 
+        href="https://thesimpsonsquoteapi.glitch.me/"
+        target="_blank"
+      >
+        Using Simpsons Quotes API
+      </StyledLink>
     </FooterWrapper>
   )
 };
